@@ -1,5 +1,7 @@
 # phase-1-project-cat-tap
-
+to start
+In VSC install Live server
+open Index.html with live server
 HOW TO PLAY CAT TAP:
 
 - enter your player name and confirm
