@@ -1,0 +1,45 @@
+<!-- Build out HTML structure based on drawing -->
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <link rel='stylesheet' href='style.css'>
+  </head>
+  <body class='cursor'>
+      <div id='game-title' class='cursor'>
+        <h1 id='cat-tap-title' class='cursor'>CAT TAP</h1>
+      </div>
+      <div id='main-game-board' class='cursor'>
+        <div id='cat-menu' class='cursor'>
+          <img style= 'display:none'></img>
+        </div>
+        <div id='buttons' class='cursor'>
+          <form id='username-input' class='cursor' autocomplete='off'>
+              <input id='username' class='cursor' type='text' placeholder="enter player name.."/>
+              <button id='submit-button' class='cursor' type='submit'>confirm</button>
+          </form>
+          <button id='start-game' class='cursor' type='text'>start game</button>
+          <span id='final-score' class='cursor' class='score' style='display:none'>final score: 0</span>
+          <button id='retry' class='cursor' type='text' style='display:none'>retry</button>
+          <button id='how-to-play' class='cursor' type='text'>how to play</button>
+            <div id='game-instructions' class='cursor' style='display:none'>
+              <li class='cursor'>enter your player name and confirm</li>
+              <li class='cursor'>click start to begin the game</li>
+              <li class='cursor'>click the cat image that appears on the game board to increase your score</li>
+              <li class='cursor'>if you click outside of the cat image, the game will stop</li>
+              <li class='cursor'>if you choose to retry, your score will reset back to zero</li>
+              <li class='cursor'>GOOD LUCK! ₍⸍⸌̣ʷ̣̫⸍̣⸌₎ฅ</li>
+              <button id='ok-button' class='cursor' style='display:none'>ok</button>
+          </div>
+      </div>
+    </div>
+    </div>
+    <div id='user-info' class='cursor'>
+      <span id='username-container' class='cursor'>player name</span>
+      <span id='score-count' class='score cursor'>score: 0</span>
+    </div>
+  </body>
+  <script src='index.js'></script>
+  </html>
+
+            
